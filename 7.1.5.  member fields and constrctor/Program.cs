@@ -23,3 +23,6 @@ class MainClass
         Console.WriteLine("myPoint.y {0}", myPoint.y);
     }
 }
+
+//myPoint.x 10
+//myPoint.y 15

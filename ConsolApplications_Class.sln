@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition", "7.1.Class Definition", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
+	ProjectSection(SolutionItems) = preProject
+		Classes .txt = Classes .txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.1. Class Fundamentals", "7.1.1. Class Fundamentals\7.1.1. Class Fundamentals.csproj", "{FC8218F9-FA9C-41CC-9DF9-F6C78FECDA7D}"
 EndProject
@@ -14,6 +17,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.4. A simple, but complete, CSharp class", "7.1.4. A simple, but complete, CSharp class\7.1.4. A simple, but complete, CSharp class.csproj", "{CB191425-8F47-4231-99AA-58017191217D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.5.  member fields and constrctor", "7.1.5.  member fields and constrctor\7.1.5.  member fields and constrctor.csproj", "{3EBE3B6B-76F8-4A62-831D-F9773C048591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.6. Declare an object of type Building", "7.1.6. Declare an object of type Building\7.1.6. Declare an object of type Building.csproj", "{938CF6DA-20FA-4C47-956E-C0ED005B7E2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.7. Create two objects for one class", "7.1.7. Create two objects for one class\7.1.7. Create two objects for one class.csproj", "{0EBEA8FA-E31D-4009-AD55-DC0421831E2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.8. Copy a class", "7.1.8. Copy a class\7.1.8. Copy a class.csproj", "{1728D152-E92D-4A94-9427-CC0B30F11D27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +50,18 @@ Global
 		{3EBE3B6B-76F8-4A62-831D-F9773C048591}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EBE3B6B-76F8-4A62-831D-F9773C048591}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EBE3B6B-76F8-4A62-831D-F9773C048591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{938CF6DA-20FA-4C47-956E-C0ED005B7E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938CF6DA-20FA-4C47-956E-C0ED005B7E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938CF6DA-20FA-4C47-956E-C0ED005B7E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938CF6DA-20FA-4C47-956E-C0ED005B7E2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBEA8FA-E31D-4009-AD55-DC0421831E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBEA8FA-E31D-4009-AD55-DC0421831E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBEA8FA-E31D-4009-AD55-DC0421831E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBEA8FA-E31D-4009-AD55-DC0421831E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1728D152-E92D-4A94-9427-CC0B30F11D27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1728D152-E92D-4A94-9427-CC0B30F11D27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1728D152-E92D-4A94-9427-CC0B30F11D27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1728D152-E92D-4A94-9427-CC0B30F11D27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,5 +72,8 @@ Global
 		{7F57BF43-0FA3-4666-9A76-D3E8E289BB8F} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{CB191425-8F47-4231-99AA-58017191217D} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{3EBE3B6B-76F8-4A62-831D-F9773C048591} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
+		{938CF6DA-20FA-4C47-956E-C0ED005B7E2F} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
+		{0EBEA8FA-E31D-4009-AD55-DC0421831E2D} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
+		{1728D152-E92D-4A94-9427-CC0B30F11D27} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 	EndGlobalSection
 EndGlobal

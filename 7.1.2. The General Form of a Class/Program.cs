@@ -57,6 +57,9 @@ namespace The_General_Form_of_a_Class
     {
         static void Main(string[] args)
         {
+
+            //class that the object will be based on, like this:
+            classname name = new classname();
         }
     }
 }
