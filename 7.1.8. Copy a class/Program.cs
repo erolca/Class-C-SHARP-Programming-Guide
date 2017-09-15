@@ -23,3 +23,6 @@ class MainClass
         Console.WriteLine("a.x {0}, b.x {1}", a.x, b.x);
     }
 }
+
+//a.x 10, b.x 20
+//a.x 30, b.x 30
