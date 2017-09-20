@@ -5,6 +5,7 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition", "7.1.Class Definition", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
+		7.1.15. CSharp Accessibility Keywords.txt = 7.1.15. CSharp Accessibility Keywords.txt
 		Classes .txt = Classes .txt
 	EndProjectSection
 EndProject
@@ -41,6 +42,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClass", "GenericClass\GenericClass.csproj", "{DA508BF1-F732-4128-9261-8758993913A3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.14. Extends class and implements interface", "7.1.14. Extends class and implements interface\7.1.14. Extends class and implements interface.csproj", "{E3109D8D-1A12-457B-A066-9AC7D3D1B47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.17. Value Types  class vs struct", "7.1.17. Value Types  class vs struct\7.1.17. Value Types  class vs struct.csproj", "{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,6 +119,10 @@ Global
 		{E3109D8D-1A12-457B-A066-9AC7D3D1B47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E3109D8D-1A12-457B-A066-9AC7D3D1B47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E3109D8D-1A12-457B-A066-9AC7D3D1B47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,5 +142,6 @@ Global
 		{55FFC892-0B14-42A1-AD36-3F608BD4A1B8} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{E99EEE5A-65E6-4C03-9D50-042BA27668D1} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{E3109D8D-1A12-457B-A066-9AC7D3D1B47D} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
+		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 	EndGlobalSection
 EndGlobal

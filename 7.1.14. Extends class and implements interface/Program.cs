@@ -7,14 +7,20 @@ interface Talkable
     string Table();
 }
 
+
 class Animal { }
+
 
 class Cat : Animal, Talkable
 {
-    string Talkable.Table()
+    public string Table()
     {
         return "miao";
     }
+   /* string Talkable.Table()
+    {
+        return "miao";
+    }*/
 }
 
 class Dog : Animal, Talkable
@@ -46,5 +52,34 @@ class MainClass
             if (b != null)
                 Console.WriteLine("Baby is called: {0}", b.Table());
         }
+
+        //as :You can use the as operator to perform certain types of conversions between compatible reference types or nullable types.
+        // seperate exercise...
+        Derived d = new Derived();
+
+        Base b_ = d as Base;
+        if (b_ != null)
+        {
+            Console.WriteLine(b_.ToString());
+        }
     }
+
+
+
+    class Base
+    {
+        public override string ToString()
+        {
+            return "Base";
+        }
+    }
+
+    class Derived : Base
+    { }
 }
+
+
+
+
+  
+

@@ -1,0 +1,30 @@
+C# Access Modifier              Meaning
+
+public                          Marks a member as accessible from an object variable and derived classes.
+
+private                        Marks a method as accessible only by the class that has defined the method. 
+                               In C#, all members are private by default.
+
+protected                      Marks a method as usable by the defining class, and any derived classes. 
+                               Protected methods are not accessible from an object variable.
+
+internal						Defines a method that is accessible by any type in the same assembly, but not outside the assembly.
+
+protected internal				Defines a method whose access is limited to the current assembly or types derived from the defining class in the current assembly.
+
+Modifier           Applies To                                       Description
+
+new                Function members                                 hides an inherited member with the same signature.
+
+static             All members                                      does not operate on a specific instance of the class.
+
+virtual            Classes and function members only                can be overridden by a derived class.
+
+abstract           Function members only                            A virtual member that defines the signature of the member, but doesn't provide an implementation.
+
+override           Function members only                            overrides an inherited virtual or abstract member.
+
+sealed             Classes                                          overrides an inherited virtual member, but cannot be overridden by any classes that inherit 
+																	from this class.
+
+extern             static [DllImport] methods only                  implemented externally, in a different language.
