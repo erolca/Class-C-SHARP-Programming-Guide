@@ -45,6 +45,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.14. Extends class and i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.1.17. Value Types  class vs struct", "7.1.17. Value Types  class vs struct\7.1.17. Value Types  class vs struct.csproj", "{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.2.Class Instance", "7.2.Class Instance", "{2DD92529-1789-4D55-94CA-1C99CF811B95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.1. Invoke a method in a class", "7.2.1. Invoke a method in a class\7.2.1. Invoke a method in a class.csproj", "{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.2. Instance Class Members", "7.2.2. Instance Class Members\7.2.2. Instance Class Members.csproj", "{784FC96E-49E8-4792-AE95-B946983B3E0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.3. Try to change static value in different instance", "7.2.3. Try to change static value in different instance\7.2.3. Try to change static value in different instance.csproj", "{30C49B2E-F91F-41B8-BE55-FD43456F2277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.4. public member method", "7.2.4. public member method\7.2.4. public member method.csproj", "{2873347F-88FC-45D0-92AA-F303CE0FFB45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +133,22 @@ Global
 		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{784FC96E-49E8-4792-AE95-B946983B3E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784FC96E-49E8-4792-AE95-B946983B3E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{784FC96E-49E8-4792-AE95-B946983B3E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784FC96E-49E8-4792-AE95-B946983B3E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30C49B2E-F91F-41B8-BE55-FD43456F2277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30C49B2E-F91F-41B8-BE55-FD43456F2277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30C49B2E-F91F-41B8-BE55-FD43456F2277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30C49B2E-F91F-41B8-BE55-FD43456F2277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2873347F-88FC-45D0-92AA-F303CE0FFB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2873347F-88FC-45D0-92AA-F303CE0FFB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2873347F-88FC-45D0-92AA-F303CE0FFB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2873347F-88FC-45D0-92AA-F303CE0FFB45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,5 +169,9 @@ Global
 		{E99EEE5A-65E6-4C03-9D50-042BA27668D1} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{E3109D8D-1A12-457B-A066-9AC7D3D1B47D} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{5F22A1CA-E40E-4AEC-8332-DAFF32DC5DBC} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
+		{99D3CE1E-DF34-4E82-A3AC-2C472D631EA2} = {2DD92529-1789-4D55-94CA-1C99CF811B95}
+		{784FC96E-49E8-4792-AE95-B946983B3E0D} = {2DD92529-1789-4D55-94CA-1C99CF811B95}
+		{30C49B2E-F91F-41B8-BE55-FD43456F2277} = {2DD92529-1789-4D55-94CA-1C99CF811B95}
+		{2873347F-88FC-45D0-92AA-F303CE0FFB45} = {2DD92529-1789-4D55-94CA-1C99CF811B95}
 	EndGlobalSection
 EndGlobal
