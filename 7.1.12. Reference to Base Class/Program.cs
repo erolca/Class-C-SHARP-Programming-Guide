@@ -8,7 +8,7 @@ class BaseClass
     }
 }
 
-class DerivedClass : BaseClass
+class DerivedClass : BaseClass //Inheritance 
 {
     new public /*override*/ void Print()
     {
@@ -28,5 +28,5 @@ class Program
     }
 }
 
-//This is the derived class.
-//This is the base class.
+//  This is the derived class.
+//  This is the base class.

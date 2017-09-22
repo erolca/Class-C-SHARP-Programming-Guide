@@ -12,25 +12,16 @@ class MyClass
     {
         Console.WriteLine("Static Constructer...");
     }
-
-   
-
 }
 
 class A
 {
-public int x { get; set; }
-   
-
-
+    public int x { get; set; }
 }
 
 class B : A
 {
-
     public int y { get; set; }
-
-
 }
 
 class MainClass
@@ -42,7 +33,7 @@ class MainClass
 
         a.x = 10;
         b.x = 20;
-     
+
 
         Console.WriteLine("a.x {0}, b.x {1}", a.x, b.x);
 
@@ -53,12 +44,10 @@ class MainClass
 
 
         A ab = new B();
-        B ba= (B)ab; // downcast
+        B ba = (B)ab; // downcast
         B b1 = new B();
         A a1 = b1;//upcast
-        
-       
-        
+
     }
 }
 
