@@ -8,7 +8,8 @@
 
     public override bool Equals(object obj)
     {
-        ComplexNumber other = obj as ComplexNumber;
+        //ComplexNumber other = obj as ComplexNumber;
+        ComplexNumber other = (ComplexNumber)obj;// as ComplexNumber;
 
         if (other == null)
         {
@@ -39,8 +40,13 @@
 
 public class MainClass
 {
+   
     static void Main()
+       
     {
+    
+        
+
         ComplexNumber referenceA = new ComplexNumber(1, 2);
         ComplexNumber referenceB = new ComplexNumber(1, 2);
 
