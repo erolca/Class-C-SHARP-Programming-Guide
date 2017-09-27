@@ -31,7 +31,7 @@ class MainClass
             Console.WriteLine("Object {0}. Value = {1}",
               i, arr[i].getValue());
 
-
+        //veya
         foreach (MainClass item in arr)
         {
             Console.WriteLine("Object. Value = {1}", item.getValue());

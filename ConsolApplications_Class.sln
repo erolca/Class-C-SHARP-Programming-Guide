@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition", "7.1.Class Definition", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -60,6 +60,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.6. Call GetType and ToString on object instance", "7.2.6. Call GetType and ToString on object instance\7.2.6. Call GetType and ToString on object instance.csproj", "{0A8832CC-0028-4186-B67C-AE39FC4436E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.3.Object Reference", "7.3.Object Reference", "{90356450-3807-4EDB-B250-597F52B93C71}"
+	ProjectSection(SolutionItems) = preProject
+		7.3.9. Reference equals\Comparing Values for Equality .docx = 7.3.9. Reference equals\Comparing Values for Equality .docx
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.1. Declare class fields and methods", "7.3.1. Declare class fields and methods\7.3.1. Declare class fields and methods.csproj", "{8E12A3CE-944F-41A4-AA64-15361DE99C02}"
 EndProject
@@ -74,6 +77,30 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.7. Change the object referenced", "7.3.7. Change the object referenced\7.3.7. Change the object referenced.csproj", "{21D4FD82-E37F-4956-95C5-93C24407FC7D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.8. Reference type equals complex number", "7.3.8. Reference type equals complex number\7.3.8. Reference type equals complex number.csproj", "{DECFE311-B28A-4B0E-8C21-0A77869507F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.9. Reference equals", "7.3.9. Reference equals\7.3.9. Reference equals.csproj", "{6ABE62EC-8642-47F4-9D96-029DA1505AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.10. Reference a static member", "7.3.10. Reference a static member\7.3.10. Reference a static member.csproj", "{E852DDD5-7D79-42D9-8C78-16C46623AA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.11. Overridden Equals", "7.3.11. Overridden Equals\7.3.11. Overridden Equals.csproj", "{0124B1A1-7733-4D39-8DC7-26DE542CE14C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.12. Reference an object by interface and class", "7.3.12. Reference an object by interface and class\7.3.12. Reference an object by interface and class.csproj", "{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.13. Pass reference type variable without out and ref", "7.3.13. Pass reference type variable without out and ref\7.3.13. Pass reference type variable without out and ref.csproj", "{A41C27D6-AF8B-48B2-BB3B-63F5B3540404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.3.14. Use interface as reference", "7.3.14. Use interface as reference\7.3.14. Use interface as reference.csproj", "{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 6 Constructors Properties", "Tutorial 6 Constructors Properties\Tutorial 6 Constructors Properties.csproj", "{9C240531-4202-48FA-991A-3792F5B50678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 5 Classes", "Tutorial 5 Classes\Tutorial 5 Classes.csproj", "{8D270C45-2690-4F00-BBEB-11A0401A6212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 7 Inheritance Polymorphism", "Tutorial 7 Inheritance Polymorphism\Tutorial 7 Inheritance Polymorphism.csproj", "{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 9 Abstract Class Polymorphism", "Tutorial 9 Abstract Class Polymorphism\Tutorial 9 Abstract Class Polymorphism.csproj", "{F4D4B51C-274A-485A-9458-CC2EA0CA8EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 8 OOP Game", "Tutorial 8 OOP Game\Tutorial 8 OOP Game.csproj", "{62C79838-39D4-4F86-81A7-2680563D09CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tutorial 10 Interfaces", "Tutorial 10 Interfaces\Tutorial 10 Interfaces.csproj", "{D6A2DC17-69F4-40EA-8BCC-B14A46259A20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +232,54 @@ Global
 		{DECFE311-B28A-4B0E-8C21-0A77869507F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DECFE311-B28A-4B0E-8C21-0A77869507F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DECFE311-B28A-4B0E-8C21-0A77869507F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABE62EC-8642-47F4-9D96-029DA1505AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABE62EC-8642-47F4-9D96-029DA1505AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABE62EC-8642-47F4-9D96-029DA1505AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABE62EC-8642-47F4-9D96-029DA1505AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E852DDD5-7D79-42D9-8C78-16C46623AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E852DDD5-7D79-42D9-8C78-16C46623AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E852DDD5-7D79-42D9-8C78-16C46623AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E852DDD5-7D79-42D9-8C78-16C46623AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0124B1A1-7733-4D39-8DC7-26DE542CE14C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0124B1A1-7733-4D39-8DC7-26DE542CE14C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0124B1A1-7733-4D39-8DC7-26DE542CE14C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0124B1A1-7733-4D39-8DC7-26DE542CE14C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A41C27D6-AF8B-48B2-BB3B-63F5B3540404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A41C27D6-AF8B-48B2-BB3B-63F5B3540404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A41C27D6-AF8B-48B2-BB3B-63F5B3540404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A41C27D6-AF8B-48B2-BB3B-63F5B3540404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C240531-4202-48FA-991A-3792F5B50678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C240531-4202-48FA-991A-3792F5B50678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C240531-4202-48FA-991A-3792F5B50678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C240531-4202-48FA-991A-3792F5B50678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D270C45-2690-4F00-BBEB-11A0401A6212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D270C45-2690-4F00-BBEB-11A0401A6212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D270C45-2690-4F00-BBEB-11A0401A6212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D270C45-2690-4F00-BBEB-11A0401A6212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4D4B51C-274A-485A-9458-CC2EA0CA8EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D4B51C-274A-485A-9458-CC2EA0CA8EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D4B51C-274A-485A-9458-CC2EA0CA8EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D4B51C-274A-485A-9458-CC2EA0CA8EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C79838-39D4-4F86-81A7-2680563D09CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C79838-39D4-4F86-81A7-2680563D09CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C79838-39D4-4F86-81A7-2680563D09CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C79838-39D4-4F86-81A7-2680563D09CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A2DC17-69F4-40EA-8BCC-B14A46259A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A2DC17-69F4-40EA-8BCC-B14A46259A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A2DC17-69F4-40EA-8BCC-B14A46259A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A2DC17-69F4-40EA-8BCC-B14A46259A20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -236,5 +311,11 @@ Global
 		{B2EBD4E7-E28A-4640-974D-889EA8499F63} = {4E629711-0B67-477D-9AE4-3AF1650A8875}
 		{21D4FD82-E37F-4956-95C5-93C24407FC7D} = {90356450-3807-4EDB-B250-597F52B93C71}
 		{DECFE311-B28A-4B0E-8C21-0A77869507F7} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{6ABE62EC-8642-47F4-9D96-029DA1505AB1} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{E852DDD5-7D79-42D9-8C78-16C46623AA89} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{0124B1A1-7733-4D39-8DC7-26DE542CE14C} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{6CE17919-D8EE-4BAF-AEA5-7BDD551A276B} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{A41C27D6-AF8B-48B2-BB3B-63F5B3540404} = {90356450-3807-4EDB-B250-597F52B93C71}
+		{4312D3C0-1DA6-478C-A660-2D7DA2EF8A25} = {90356450-3807-4EDB-B250-597F52B93C71}
 	EndGlobalSection
 EndGlobal

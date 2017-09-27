@@ -54,5 +54,6 @@ public class MainClass
 
         System.Console.WriteLine("Identity of references is {0}", (object)referenceA == (object)referenceB);
         System.Console.WriteLine("Identity of references is {0}", ReferenceEquals(referenceA, referenceB));
+        
     }
 }
