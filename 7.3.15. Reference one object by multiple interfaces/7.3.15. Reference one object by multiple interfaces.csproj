@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}</ProjectGuid>
+    <ProjectGuid>{3536E1E0-1866-4D50-B952-52481197E0A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tutorial_7_Inheritance_Polymorphism</RootNamespace>
-    <AssemblyName>Tutorial 7 Inheritance Polymorphism</AssemblyName>
+    <RootNamespace>_7._3._15.Reference_one_object_by_multiple_interfaces</RootNamespace>
+    <AssemblyName>_7._3._15.Reference_one_object_by_multiple_interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,14 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="AnimalIDInfo.cs" />
-    <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

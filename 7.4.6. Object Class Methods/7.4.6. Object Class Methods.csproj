@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}</ProjectGuid>
+    <ProjectGuid>{07656B88-22C2-48F8-83E2-5767B3AB2F92}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tutorial_7_Inheritance_Polymorphism</RootNamespace>
-    <AssemblyName>Tutorial 7 Inheritance Polymorphism</AssemblyName>
+    <RootNamespace>_7._4._6.Object_Class_Methods</RootNamespace>
+    <AssemblyName>_7._4._6.Object_Class_Methods</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="AnimalIDInfo.cs" />
-    <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

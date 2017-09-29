@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CBB23E1D-7FDD-4553-A870-B1B7F5BFC604}</ProjectGuid>
+    <ProjectGuid>{EE0D3F2C-D253-4854-BC34-53F6FD119A09}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tutorial_7_Inheritance_Polymorphism</RootNamespace>
-    <AssemblyName>Tutorial 7 Inheritance Polymorphism</AssemblyName>
+    <RootNamespace>_7._5._6.Use_this_and_base_together_to_init_a_class</RootNamespace>
+    <AssemblyName>_7._5._6.Use_this_and_base_together_to_init_a_class</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,9 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="AnimalIDInfo.cs" />
-    <Compile Include="Dog.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
