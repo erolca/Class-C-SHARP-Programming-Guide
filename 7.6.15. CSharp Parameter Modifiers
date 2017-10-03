@@ -1,0 +1,10 @@
+﻿Parameter Modifier                           Meaning in Life
+
+(none)                                       Assumed to be passed by value.
+
+out                                          Output parameters are assigned. 
+
+params                                       send in a variable number of arguments as a single logical parameter. 
+
+ref                                          The value is initially assigned by the caller, 
+											and may be optionally reassigned by the called method.
