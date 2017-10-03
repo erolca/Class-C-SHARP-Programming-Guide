@@ -198,6 +198,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.8.5. Overloaded construct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.8.6. Overriding a method", "7.8.6. Overriding a method.\7.8.6. Overriding a method.csproj", "{5744813F-588D-463D-8C17-AEEF93C7D7B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance (CSharp Programming Guide)", "Inheritance (CSharp Programming Guide)\Inheritance (CSharp Programming Guide).csproj", "{C2B9B5B8-DD81-4D83-8EC5-EA2DA994D859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.9.Method Recursion", "7.9.Method Recursion", "{BEF141D7-D8CA-40F6-B44B-B775563FD584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.9.1. A simple example of recursion", "7.9.1. A simple example of recursion.\7.9.1. A simple example of recursion.csproj", "{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -532,6 +538,14 @@ Global
 		{5744813F-588D-463D-8C17-AEEF93C7D7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5744813F-588D-463D-8C17-AEEF93C7D7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5744813F-588D-463D-8C17-AEEF93C7D7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B9B5B8-DD81-4D83-8EC5-EA2DA994D859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B9B5B8-DD81-4D83-8EC5-EA2DA994D859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B9B5B8-DD81-4D83-8EC5-EA2DA994D859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B9B5B8-DD81-4D83-8EC5-EA2DA994D859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -608,6 +622,7 @@ Global
 		{757559D7-E2A8-45AA-BC2C-4B0C5FA4EEA1} = {6DAD0E63-C259-4976-A375-F6E204DC2776}
 		{F0FA559A-10AA-4732-A205-2BD05688E5A1} = {6DAD0E63-C259-4976-A375-F6E204DC2776}
 		{5744813F-588D-463D-8C17-AEEF93C7D7B4} = {6DAD0E63-C259-4976-A375-F6E204DC2776}
+		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
