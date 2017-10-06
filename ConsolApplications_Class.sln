@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -207,6 +207,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directory.GetDirectories", "Directory.GetDirectories\Directory.GetDirectories.csproj", "{08737B11-0FA2-4CAF-8012-90107F33A1FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineCounter", "LineCounter\LineCounter.csproj", "{84AF27C0-1A79-4709-928F-D58D43CAF352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.9.2. Display a string in reverse by using recursion", "7.9.2. Display a string in reverse by using recursion\7.9.2. Display a string in reverse by using recursion.csproj", "{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.9.3. fibonacci in CSharp", "7.9.3. fibonacci in CSharp\7.9.3. fibonacci in CSharp.csproj", "{9D83719F-A79A-4D49-9A9F-83F51A03F2E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.9.4. Recursion Count", "7.9.4. Recursion Count\7.9.4. Recursion Count.csproj", "{3F8836ED-2091-4A29-926E-AEEAE3626443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.10.this", "7.10.this", "{B17C641D-332E-4FB5-BA5D-864ED32D40C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.10.1. Use this to reference shadowed member variables", "7.10.1. Use this to reference shadowed member variables\7.10.1. Use this to reference shadowed member variables.csproj", "{E1E5EC78-60F9-4FF5-BAFE-17C92198E111}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.10.2. Call Constructor in the same class using 'this'", "7.10.2. Call Constructor in the same class using 'this'\7.10.2. Call Constructor in the same class using 'this'.csproj", "{4E35C348-6CF0-4608-BE36-DAFDFD64C526}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -558,6 +570,26 @@ Global
 		{84AF27C0-1A79-4709-928F-D58D43CAF352}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84AF27C0-1A79-4709-928F-D58D43CAF352}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84AF27C0-1A79-4709-928F-D58D43CAF352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D83719F-A79A-4D49-9A9F-83F51A03F2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D83719F-A79A-4D49-9A9F-83F51A03F2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D83719F-A79A-4D49-9A9F-83F51A03F2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D83719F-A79A-4D49-9A9F-83F51A03F2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F8836ED-2091-4A29-926E-AEEAE3626443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F8836ED-2091-4A29-926E-AEEAE3626443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F8836ED-2091-4A29-926E-AEEAE3626443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F8836ED-2091-4A29-926E-AEEAE3626443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1E5EC78-60F9-4FF5-BAFE-17C92198E111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1E5EC78-60F9-4FF5-BAFE-17C92198E111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1E5EC78-60F9-4FF5-BAFE-17C92198E111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1E5EC78-60F9-4FF5-BAFE-17C92198E111}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E35C348-6CF0-4608-BE36-DAFDFD64C526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E35C348-6CF0-4608-BE36-DAFDFD64C526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E35C348-6CF0-4608-BE36-DAFDFD64C526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E35C348-6CF0-4608-BE36-DAFDFD64C526}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -637,6 +669,11 @@ Global
 		{6CA7080E-FFD6-4B32-B09C-AB407BE13FDB} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
 		{08737B11-0FA2-4CAF-8012-90107F33A1FF} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
 		{84AF27C0-1A79-4709-928F-D58D43CAF352} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
+		{57DEB37B-C5F5-4EB7-8170-F5DBE441E5F6} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
+		{9D83719F-A79A-4D49-9A9F-83F51A03F2E4} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
+		{3F8836ED-2091-4A29-926E-AEEAE3626443} = {BEF141D7-D8CA-40F6-B44B-B775563FD584}
+		{E1E5EC78-60F9-4FF5-BAFE-17C92198E111} = {B17C641D-332E-4FB5-BA5D-864ED32D40C8}
+		{4E35C348-6CF0-4608-BE36-DAFDFD64C526} = {B17C641D-332E-4FB5-BA5D-864ED32D40C8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
