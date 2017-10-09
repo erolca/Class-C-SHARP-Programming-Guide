@@ -5,6 +5,7 @@ class MyObject
     {
         this.x = x;
     }
+    // constructor
     public MyObject(int x, int y) : this(x)
     {
         this.y = y;
