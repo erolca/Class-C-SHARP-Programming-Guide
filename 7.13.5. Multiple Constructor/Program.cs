@@ -6,16 +6,14 @@ public class BankAccount
     int nAccountNumber;
     double dBalance;
 
+
+    //constructor
     public BankAccount() : this(0, 0) { }
 
-    public BankAccount(double dInitialBalance) :
-        this(0, dInitialBalance)
-    {
+    //constructor
+    public BankAccount(double dInitialBalance) : this(0, dInitialBalance)  {    }
 
-
-    }
-
-
+    //constructor
     public BankAccount(int nInitialAccountNumber,double dInitialBalance)
     {
         if (nInitialAccountNumber <= 0)

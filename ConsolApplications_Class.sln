@@ -228,7 +228,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.10.4. Invoke a constructo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.11.new", "7.11.new", "{CC17D635-7CAB-47A9-AD54-D57351FCA0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.11.1. Use new with a value type", "7.11.1. Use new with a value type.\7.11.1. Use new with a value type.csproj", "{78700389-7AB4-470B-872D-99D1E93076CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.11.1. Use new with a value type", "7.11.1. Use new with a value type\7.11.1. Use new with a value type.csproj", "{78700389-7AB4-470B-872D-99D1E93076CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.12.null", "7.12.null", "{8126882F-03B1-43B3-8821-9C01915A9C2C}"
 EndProject
@@ -242,9 +242,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.2. A parameterized con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.3. Add a constructor with three parameters", "7.13.3. Add a constructor with three parameters\7.13.3. Add a constructor with three parameters.csproj", "{632359C9-29CC-405C-B4E1-95E376D7B0C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.4. An overloaded constructor", "7.13.4. An overloaded constructor.\7.13.4. An overloaded constructor.csproj", "{FA6AE29E-EFA2-45F9-A282-03955574C761}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.4. An overloaded constructor", "7.13.4. An overloaded constructor\7.13.4. An overloaded constructor.csproj", "{FA6AE29E-EFA2-45F9-A282-03955574C761}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.5. Multiple Constructor", "7.13.5. Multiple Constructor\7.13.5. Multiple Constructor.csproj", "{3D8E06E1-7714-492B-A3B9-8EEE700B6A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.6. Constuctor hidden", "7.13.6. Constuctor hidden\7.13.6. Constuctor hidden.csproj", "{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.13.7. Copy constructor", "7.13.7. Copy constructor\7.13.7. Copy constructor.csproj", "{978257C7-53BA-46D0-9F91-39D8D7E36790}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -656,6 +660,14 @@ Global
 		{3D8E06E1-7714-492B-A3B9-8EEE700B6A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D8E06E1-7714-492B-A3B9-8EEE700B6A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D8E06E1-7714-492B-A3B9-8EEE700B6A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978257C7-53BA-46D0-9F91-39D8D7E36790}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978257C7-53BA-46D0-9F91-39D8D7E36790}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978257C7-53BA-46D0-9F91-39D8D7E36790}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978257C7-53BA-46D0-9F91-39D8D7E36790}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -749,6 +761,8 @@ Global
 		{632359C9-29CC-405C-B4E1-95E376D7B0C5} = {3214BF91-A744-4AE1-88DB-5B6AEB8A1CC8}
 		{FA6AE29E-EFA2-45F9-A282-03955574C761} = {3214BF91-A744-4AE1-88DB-5B6AEB8A1CC8}
 		{3D8E06E1-7714-492B-A3B9-8EEE700B6A02} = {3214BF91-A744-4AE1-88DB-5B6AEB8A1CC8}
+		{F1FA816C-CBC8-4316-918D-EA34D2CF8C6C} = {3214BF91-A744-4AE1-88DB-5B6AEB8A1CC8}
+		{978257C7-53BA-46D0-9F91-39D8D7E36790} = {3214BF91-A744-4AE1-88DB-5B6AEB8A1CC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
