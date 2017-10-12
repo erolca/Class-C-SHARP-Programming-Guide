@@ -103,3 +103,7 @@ class MainClass
 
     }
 }
+
+//Push A through J onto stk1.
+//Contents of stk1: JIHGFEDCBA
+//Contents of stk2: JIHGFEDCBA
