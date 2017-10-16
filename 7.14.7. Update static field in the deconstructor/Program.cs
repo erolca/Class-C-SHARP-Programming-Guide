@@ -9,14 +9,18 @@ public class MyClass
 
     public MyClass()
     {
-        System.Console.WriteLine("Creating a MyClass object");
+
         numberOfMyClass++;
+        System.Console.WriteLine("Creating a MyClass object {0}", numberOfMyClass);
+        
     }
 
     ~MyClass()
     {
-        System.Console.WriteLine("Destroying a MyClass object");
+
         numberOfMyClass--;  // decrement numberOfMyClass
+        System.Console.WriteLine("Destroying a MyClass object {0}", numberOfMyClass);
+        
     }
 
     public static int GetNumberOfMyClass()
@@ -32,7 +36,7 @@ class MainClass
 
     public static void Main()
     {
-        System.Console.WriteLine("MyClass.GetNumberOfMyClass() = " + MyClass.GetNumberOfMyClass());
+        //System.Console.WriteLine("MyClass.GetNumberOfMyClass() = " + MyClass.GetNumberOfMyClass());
 
         MyClass myMyClass = new MyClass();
         System.Console.WriteLine("MyClass.GetNumberOfMyClass() = " + MyClass.GetNumberOfMyClass());

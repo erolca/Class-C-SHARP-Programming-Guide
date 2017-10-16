@@ -280,6 +280,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.6. Base destructor", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.7. Update static field in the deconstructor", "7.14.7. Update static field in the deconstructor\7.14.7. Update static field in the deconstructor.csproj", "{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.15.Access Modifier", "7.15.Access Modifier", "{EF91B9AC-5374-438F-A397-C489285D85EE}"
+	ProjectSection(SolutionItems) = preProject
+		7.15.4. Visibility modifiers .cs = 7.15.4. Visibility modifiers .cs
+		7.15.Access Modifier.cs = 7.15.Access Modifier.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.15.2. The use of various access modifiers", "7.15.2. The use of various access modifiers\7.15.2. The use of various access modifiers.csproj", "{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.15.3. Access Control - demonstrate", "7.15.3. Access Control - demonstrate\7.15.3. Access Control - demonstrate.csproj", "{596C86FD-0447-4BC9-990B-DCA52803007E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -754,6 +764,14 @@ Global
 		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596C86FD-0447-4BC9-990B-DCA52803007E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596C86FD-0447-4BC9-990B-DCA52803007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596C86FD-0447-4BC9-990B-DCA52803007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596C86FD-0447-4BC9-990B-DCA52803007E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -863,6 +881,8 @@ Global
 		{491D2520-B004-472F-8656-7F4E5E2DF589} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 		{36FBF490-03FD-415D-A2EC-CA292F09C7BC} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
+		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946} = {EF91B9AC-5374-438F-A397-C489285D85EE}
+		{596C86FD-0447-4BC9-990B-DCA52803007E} = {EF91B9AC-5374-438F-A397-C489285D85EE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
