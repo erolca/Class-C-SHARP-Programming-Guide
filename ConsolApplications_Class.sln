@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -272,7 +272,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.2. Simple Finalize", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.3. Illustrates a destructor", "7.14.3. Illustrates a destructor\7.14.3. Illustrates a destructor.csproj", "{EDF87640-4202-4B9C-83BD-7638341A1805}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.4. Demonstrate a destructor", "7.14.4. Demonstrate a destructor.\7.14.4. Demonstrate a destructor.csproj", "{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.4. Demonstrate a destructor", "7.14.4. Demonstrate a destructor\7.14.4. Demonstrate a destructor.csproj", "{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.5. Use destructor and implement IDisposable", "7.14.5. Use destructor and implement IDisposable\7.14.5. Use destructor and implement IDisposable.csproj", "{491D2520-B004-472F-8656-7F4E5E2DF589}"
 EndProject
@@ -289,6 +289,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.15.2. The use of various access modifiers", "7.15.2. The use of various access modifiers\7.15.2. The use of various access modifiers.csproj", "{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.15.3. Access Control - demonstrate", "7.15.3. Access Control - demonstrate\7.15.3. Access Control - demonstrate.csproj", "{596C86FD-0447-4BC9-990B-DCA52803007E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.16.private", "7.16.private", "{94A4A7EB-3FC4-40CD-BA60-F8B9EB8423E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.16.1. Define private constructors", "7.16.1. Define private constructors\7.16.1. Define private constructors.csproj", "{B16C23F6-0001-49B2-9FF4-16310A3FE7DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E53DEF9-E259-4367-830E-C16A0BD8BA58}"
+	ProjectSection(SolutionItems) = preProject
+		Ozet.cs = Ozet.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.16.2. Use Properties", "7.16.2. Use Properties\7.16.2. Use Properties.csproj", "{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.16.3. private static and const Fields", "7.16.3. private static and const Fields\7.16.3. private static and const Fields.csproj", "{A7385D80-1119-47EC-A22C-44923B9BC95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.16.4Using Methods to change private fields", "7.16.4Using Methods to change private fields\7.16.4Using Methods to change private fields.csproj", "{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -772,6 +787,22 @@ Global
 		{596C86FD-0447-4BC9-990B-DCA52803007E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596C86FD-0447-4BC9-990B-DCA52803007E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596C86FD-0447-4BC9-990B-DCA52803007E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B16C23F6-0001-49B2-9FF4-16310A3FE7DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B16C23F6-0001-49B2-9FF4-16310A3FE7DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B16C23F6-0001-49B2-9FF4-16310A3FE7DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B16C23F6-0001-49B2-9FF4-16310A3FE7DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7385D80-1119-47EC-A22C-44923B9BC95A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7385D80-1119-47EC-A22C-44923B9BC95A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7385D80-1119-47EC-A22C-44923B9BC95A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7385D80-1119-47EC-A22C-44923B9BC95A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -883,6 +914,10 @@ Global
 		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 		{7CB85FDA-6CDF-49AC-B1D1-A69FA62E2946} = {EF91B9AC-5374-438F-A397-C489285D85EE}
 		{596C86FD-0447-4BC9-990B-DCA52803007E} = {EF91B9AC-5374-438F-A397-C489285D85EE}
+		{B16C23F6-0001-49B2-9FF4-16310A3FE7DC} = {94A4A7EB-3FC4-40CD-BA60-F8B9EB8423E5}
+		{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1} = {94A4A7EB-3FC4-40CD-BA60-F8B9EB8423E5}
+		{A7385D80-1119-47EC-A22C-44923B9BC95A} = {94A4A7EB-3FC4-40CD-BA60-F8B9EB8423E5}
+		{16E24BCB-87E7-4BAD-AE04-275F3A82D7E4} = {94A4A7EB-3FC4-40CD-BA60-F8B9EB8423E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
