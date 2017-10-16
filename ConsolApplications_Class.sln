@@ -274,6 +274,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.3. Illustrates a destr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.4. Demonstrate a destructor", "7.14.4. Demonstrate a destructor.\7.14.4. Demonstrate a destructor.csproj", "{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.5. Use destructor and implement IDisposable", "7.14.5. Use destructor and implement IDisposable\7.14.5. Use destructor and implement IDisposable.csproj", "{491D2520-B004-472F-8656-7F4E5E2DF589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.6. Base destructor", "7.14.6. Base destructor\7.14.6. Base destructor.csproj", "{36FBF490-03FD-415D-A2EC-CA292F09C7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.14.7. Update static field in the deconstructor", "7.14.7. Update static field in the deconstructor\7.14.7. Update static field in the deconstructor.csproj", "{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -736,6 +742,18 @@ Global
 		{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491D2520-B004-472F-8656-7F4E5E2DF589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491D2520-B004-472F-8656-7F4E5E2DF589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491D2520-B004-472F-8656-7F4E5E2DF589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491D2520-B004-472F-8656-7F4E5E2DF589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36FBF490-03FD-415D-A2EC-CA292F09C7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36FBF490-03FD-415D-A2EC-CA292F09C7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36FBF490-03FD-415D-A2EC-CA292F09C7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36FBF490-03FD-415D-A2EC-CA292F09C7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -842,6 +860,9 @@ Global
 		{AE9258A1-07AB-4819-B346-93ED4A952623} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 		{EDF87640-4202-4B9C-83BD-7638341A1805} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 		{2FB75B44-DD92-430C-BD9C-C7CBF8FBE477} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
+		{491D2520-B004-472F-8656-7F4E5E2DF589} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
+		{36FBF490-03FD-415D-A2EC-CA292F09C7BC} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
+		{4A70C3FB-2AEB-45A7-BD72-6B53C36BAC19} = {4FB441E9-21A7-4369-B749-405FF4EF227D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
