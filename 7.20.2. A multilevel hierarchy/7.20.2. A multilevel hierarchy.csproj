@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F8A722F-C1E9-4BD7-9ECB-4CDFB1B8F7E6}</ProjectGuid>
+    <ProjectGuid>{FA57D30F-EF01-437E-A71B-2CB527CDED6C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._2._5.Creating_an_array_of_objects</RootNamespace>
-    <AssemblyName>_7._2._5.Creating_an_array_of_objects</AssemblyName>
+    <RootNamespace>_7._20._2.A_multilevel_hierarchy</RootNamespace>
+    <AssemblyName>_7._20._2.A_multilevel_hierarchy</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

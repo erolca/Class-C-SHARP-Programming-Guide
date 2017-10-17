@@ -327,6 +327,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.20.Class hierarchy", "7.2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.1. A simple class hierarchy", "7.20.1. A simple class hierarchy.\7.20.1. A simple class hierarchy.csproj", "{499D98BB-D368-4B96-9127-FCD2C7615795}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.2. A multilevel hierarchy", "7.20.2. A multilevel hierarchy.\7.20.2. A multilevel hierarchy.csproj", "{FA57D30F-EF01-437E-A71B-2CB527CDED6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.3. Demonstrate when constructors are called", "7.20.3. Demonstrate when constructors are called.\7.20.3. Demonstrate when constructors are called.csproj", "{C702B237-D00B-4760-AC67-CC77B1304001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.4. Simple Inheritance", "7.20.4. Simple Inheritance\7.20.4. Simple Inheritance.csproj", "{5B3CB660-C930-4F5A-896D-7F547DFEE98A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -853,6 +859,18 @@ Global
 		{499D98BB-D368-4B96-9127-FCD2C7615795}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{499D98BB-D368-4B96-9127-FCD2C7615795}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{499D98BB-D368-4B96-9127-FCD2C7615795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA57D30F-EF01-437E-A71B-2CB527CDED6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA57D30F-EF01-437E-A71B-2CB527CDED6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA57D30F-EF01-437E-A71B-2CB527CDED6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA57D30F-EF01-437E-A71B-2CB527CDED6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C702B237-D00B-4760-AC67-CC77B1304001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C702B237-D00B-4760-AC67-CC77B1304001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C702B237-D00B-4760-AC67-CC77B1304001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C702B237-D00B-4760-AC67-CC77B1304001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -975,6 +993,9 @@ Global
 		{1B333F00-DEBF-4322-8DE9-1C72B0057221} = {B21C32C8-5E3B-4CC1-A9F5-B7826A1C62F2}
 		{3281A176-83CA-4252-9DCF-A039F6F2395B} = {B21C32C8-5E3B-4CC1-A9F5-B7826A1C62F2}
 		{499D98BB-D368-4B96-9127-FCD2C7615795} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
+		{FA57D30F-EF01-437E-A71B-2CB527CDED6C} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
+		{C702B237-D00B-4760-AC67-CC77B1304001} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
+		{5B3CB660-C930-4F5A-896D-7F547DFEE98A} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}

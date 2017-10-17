@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F8A722F-C1E9-4BD7-9ECB-4CDFB1B8F7E6}</ProjectGuid>
+    <ProjectGuid>{C702B237-D00B-4760-AC67-CC77B1304001}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._2._5.Creating_an_array_of_objects</RootNamespace>
-    <AssemblyName>_7._2._5.Creating_an_array_of_objects</AssemblyName>
+    <RootNamespace>_7._20._3.Demonstrate_when_constructors_are_called</RootNamespace>
+    <AssemblyName>_7._20._3.Demonstrate_when_constructors_are_called</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,9 +42,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
