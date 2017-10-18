@@ -42,5 +42,6 @@ class Test
         Component t1= new Component();
         group.AddObject(t1);
         t1.Render();
+        group.Render();
     }
 }
