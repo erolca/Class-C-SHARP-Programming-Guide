@@ -315,7 +315,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.17.3. Re-using Base Class
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.18.protected", "7.18.protected", "{9021CA61-514E-4275-A4B9-CC49B573269E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.18.1. Demonstrate protected", "7.18.1. Demonstrate protected.\7.18.1. Demonstrate protected.csproj", "{0961F13C-E289-4B38-AA0E-E81E76067BF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.18.1. Demonstrate protected", "7.18.1. Demonstrate protected\7.18.1. Demonstrate protected.csproj", "{0961F13C-E289-4B38-AA0E-E81E76067BF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.19.1. Use internal", "7.19.internal\7.19.1. Use internal.csproj", "{1B333F00-DEBF-4322-8DE9-1C72B0057221}"
 EndProject
@@ -323,15 +323,55 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.19.internal", "7.19.inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.19.2. Using Internal on Members", "7.19.2. Using Internal on Members\7.19.2. Using Internal on Members.csproj", "{3281A176-83CA-4252-9DCF-A039F6F2395B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.20.Class hierarchy", "7.20.Class hierarchy", "{E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.20.Class hierarchy(5)", "7.20.Class hierarchy(5)", "{E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.1. A simple class hierarchy", "7.20.1. A simple class hierarchy.\7.20.1. A simple class hierarchy.csproj", "{499D98BB-D368-4B96-9127-FCD2C7615795}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.1. A simple class hierarchy", "7.20.1. A simple class hierarchy\7.20.1. A simple class hierarchy.csproj", "{499D98BB-D368-4B96-9127-FCD2C7615795}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.2. A multilevel hierarchy", "7.20.2. A multilevel hierarchy.\7.20.2. A multilevel hierarchy.csproj", "{FA57D30F-EF01-437E-A71B-2CB527CDED6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.2. A multilevel hierarchy", "7.20.2. A multilevel hierarchy\7.20.2. A multilevel hierarchy.csproj", "{FA57D30F-EF01-437E-A71B-2CB527CDED6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.3. Demonstrate when constructors are called", "7.20.3. Demonstrate when constructors are called.\7.20.3. Demonstrate when constructors are called.csproj", "{C702B237-D00B-4760-AC67-CC77B1304001}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.3. Demonstrate when constructors are called", "7.20.3. Demonstrate when constructors are called\7.20.3. Demonstrate when constructors are called.csproj", "{C702B237-D00B-4760-AC67-CC77B1304001}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.4. Simple Inheritance", "7.20.4. Simple Inheritance\7.20.4. Simple Inheritance.csproj", "{5B3CB660-C930-4F5A-896D-7F547DFEE98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.20.5. Inherited Implementation", "7.20.5. Inherited Implementation\7.20.5. Inherited Implementation.csproj", "{4CA36349-86F1-459F-B8E4-0D07370746A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.21.Derived Class(4)", "7.21.Derived Class(4)", "{E1BDE8B7-8E6E-4A68-ABB0-0D4A6962FF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.1. A base class reference", "7.21.1. A base class reference\7.21.1. A base class reference.csproj", "{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.2. Illustrates member hiding", "7.21.2. Illustrates member hiding\7.21.2. Illustrates member hiding.csproj", "{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.3. Illustrates member accessibility in subclass", "7.21.3. Illustrates member accessibility in subclass\7.21.3. Illustrates member accessibility in subclass.csproj", "{DB79CB1E-CD03-44F0-B745-1972128D40DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.4. base and derived classes", "7.21.4. base and derived classes\7.21.4. base and derived classes.csproj", "{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.22.Base Class", "7.22.Base Class", "{54DF25F0-AF67-44A8-9C0E-51D06C525464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.1. Add constructors to base class", "7.22.1. Add constructors to base class\7.22.1. Add constructors to base class.csproj", "{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.2. Add more constructors to base class", "7.22.2. Add more constructors to base class\7.22.2. Add more constructors to base class.csproj", "{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.3. Pass a derived class reference", "7.22.3. Pass a derived class reference\7.22.3. Pass a derived class reference.csproj", "{10840BB1-0301-438B-AC56-A5C997054C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.4. Call constructor in base class", "7.22.4. Call constructor in base class\7.22.4. Call constructor in base class.csproj", "{0F83322D-2AB0-4787-AF92-871B7D8C2E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.5. Define base class another cs file", "7.22.5. Define base class another cs file\7.22.5. Define base class another cs file.csproj", "{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.23.virtual", "7.23.virtual", "{79BD8837-FBC5-4EBC-B2E0-844F2030DF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.1. Virtual Methods and Overriding", "7.23.1. Virtual Methods and Overriding\7.23.1. Virtual Methods and Overriding.csproj", "{453D1799-8F9F-48B6-B853-4F818064A3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.2. Override virtual functions", "7.23.2. Override virtual functions\7.23.2. Override virtual functions.csproj", "{61D69775-2303-441B-A447-CFA471B3CC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.3. new virtual method", "7.23.3. new virtual method\7.23.3. new virtual method.csproj", "{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.4. Override virtual method", "7.23.4. Override virtual method\7.23.4. Override virtual method.csproj", "{928C6B71-8DB0-47B1-86FE-317995A7DDD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.5. Define virtual function in base and its subclass", "7.23.5. Define virtual function in base and its subclass\7.23.5. Define virtual function in base and its subclass.csproj", "{61008B09-DC0C-425C-B55F-73181DB8C20F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.6. Class inheritance with virtual method", "7.23.6. Class inheritance with virtual method\7.23.6. Class inheritance with virtual method.csproj", "{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.7. Illustrates versioning virtual - new", "7.23.7. Illustrates versioning virtual - new\7.23.7. Illustrates versioning virtual - new.csproj", "{FD8C643E-1BFE-4059-BDA0-127F99008B6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -871,6 +911,74 @@ Global
 		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B3CB660-C930-4F5A-896D-7F547DFEE98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CA36349-86F1-459F-B8E4-0D07370746A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CA36349-86F1-459F-B8E4-0D07370746A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CA36349-86F1-459F-B8E4-0D07370746A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CA36349-86F1-459F-B8E4-0D07370746A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB79CB1E-CD03-44F0-B745-1972128D40DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB79CB1E-CD03-44F0-B745-1972128D40DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB79CB1E-CD03-44F0-B745-1972128D40DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB79CB1E-CD03-44F0-B745-1972128D40DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10840BB1-0301-438B-AC56-A5C997054C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10840BB1-0301-438B-AC56-A5C997054C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10840BB1-0301-438B-AC56-A5C997054C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10840BB1-0301-438B-AC56-A5C997054C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F83322D-2AB0-4787-AF92-871B7D8C2E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F83322D-2AB0-4787-AF92-871B7D8C2E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F83322D-2AB0-4787-AF92-871B7D8C2E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F83322D-2AB0-4787-AF92-871B7D8C2E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453D1799-8F9F-48B6-B853-4F818064A3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453D1799-8F9F-48B6-B853-4F818064A3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453D1799-8F9F-48B6-B853-4F818064A3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453D1799-8F9F-48B6-B853-4F818064A3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D69775-2303-441B-A447-CFA471B3CC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D69775-2303-441B-A447-CFA471B3CC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D69775-2303-441B-A447-CFA471B3CC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D69775-2303-441B-A447-CFA471B3CC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928C6B71-8DB0-47B1-86FE-317995A7DDD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928C6B71-8DB0-47B1-86FE-317995A7DDD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928C6B71-8DB0-47B1-86FE-317995A7DDD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928C6B71-8DB0-47B1-86FE-317995A7DDD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61008B09-DC0C-425C-B55F-73181DB8C20F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61008B09-DC0C-425C-B55F-73181DB8C20F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61008B09-DC0C-425C-B55F-73181DB8C20F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61008B09-DC0C-425C-B55F-73181DB8C20F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -996,6 +1104,23 @@ Global
 		{FA57D30F-EF01-437E-A71B-2CB527CDED6C} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
 		{C702B237-D00B-4760-AC67-CC77B1304001} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
 		{5B3CB660-C930-4F5A-896D-7F547DFEE98A} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
+		{4CA36349-86F1-459F-B8E4-0D07370746A1} = {E7A29AC3-516A-4F11-983C-C0E23CA9ABD1}
+		{1FF1E0CC-2923-4AC7-B41C-0BB33069F74A} = {E1BDE8B7-8E6E-4A68-ABB0-0D4A6962FF96}
+		{44EE68DA-FB46-4BAC-A952-D2CED23AD0C7} = {E1BDE8B7-8E6E-4A68-ABB0-0D4A6962FF96}
+		{DB79CB1E-CD03-44F0-B745-1972128D40DE} = {E1BDE8B7-8E6E-4A68-ABB0-0D4A6962FF96}
+		{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25} = {E1BDE8B7-8E6E-4A68-ABB0-0D4A6962FF96}
+		{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B} = {54DF25F0-AF67-44A8-9C0E-51D06C525464}
+		{7AF5E78F-BA88-4889-A9C7-3199BB48B8CF} = {54DF25F0-AF67-44A8-9C0E-51D06C525464}
+		{10840BB1-0301-438B-AC56-A5C997054C9E} = {54DF25F0-AF67-44A8-9C0E-51D06C525464}
+		{0F83322D-2AB0-4787-AF92-871B7D8C2E38} = {54DF25F0-AF67-44A8-9C0E-51D06C525464}
+		{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD} = {54DF25F0-AF67-44A8-9C0E-51D06C525464}
+		{453D1799-8F9F-48B6-B853-4F818064A3B7} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{61D69775-2303-441B-A447-CFA471B3CC38} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{61D5FAD9-0A6B-4C40-89EA-71A9A2DEAA46} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{928C6B71-8DB0-47B1-86FE-317995A7DDD2} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{61008B09-DC0C-425C-B55F-73181DB8C20F} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{FD8C643E-1BFE-4059-BDA0-127F99008B6D} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
