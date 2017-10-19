@@ -373,6 +373,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.6. Class inheritance w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.7. Illustrates versioning virtual - new", "7.23.7. Illustrates versioning virtual - new\7.23.7. Illustrates versioning virtual - new.csproj", "{FD8C643E-1BFE-4059-BDA0-127F99008B6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.8. Illustrates polymorphism", "7.23.8. Illustrates polymorphism\7.23.8. Illustrates polymorphism.csproj", "{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.9. Demonstrate a virtual method", "7.23.9. Demonstrate a virtual method.\7.23.9. Demonstrate a virtual method.csproj", "{84B89651-6578-47EB-BE6B-74BE8426D337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.10. When a virtual method is not overridden", "7.23.10. When a virtual method is not overridden\7.23.10. When a virtual method is not overridden.csproj", "{B3B9E233-909F-409D-B7F0-B91EDE694A33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.11. Virtual method in a multilevel hierarchy", "7.23.11. Virtual method in a multilevel hierarchy\7.23.11. Virtual method in a multilevel hierarchy.csproj", "{37811C97-5E10-410B-8C5B-322E5BB2D6CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.12. Use virtual methods and polymorphism", "7.23.12. Use virtual methods and polymorphism.\7.23.12. Use virtual methods and polymorphism.csproj", "{5B6B6A7F-5294-4F38-913D-B818C44271BE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -979,6 +989,26 @@ Global
 		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD8C643E-1BFE-4059-BDA0-127F99008B6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B89651-6578-47EB-BE6B-74BE8426D337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B89651-6578-47EB-BE6B-74BE8426D337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B89651-6578-47EB-BE6B-74BE8426D337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B89651-6578-47EB-BE6B-74BE8426D337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B9E233-909F-409D-B7F0-B91EDE694A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B9E233-909F-409D-B7F0-B91EDE694A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B9E233-909F-409D-B7F0-B91EDE694A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B9E233-909F-409D-B7F0-B91EDE694A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37811C97-5E10-410B-8C5B-322E5BB2D6CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37811C97-5E10-410B-8C5B-322E5BB2D6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37811C97-5E10-410B-8C5B-322E5BB2D6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37811C97-5E10-410B-8C5B-322E5BB2D6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6B6A7F-5294-4F38-913D-B818C44271BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6B6A7F-5294-4F38-913D-B818C44271BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6B6A7F-5294-4F38-913D-B818C44271BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6B6A7F-5294-4F38-913D-B818C44271BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1121,6 +1151,11 @@ Global
 		{61008B09-DC0C-425C-B55F-73181DB8C20F} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
 		{7BBD40CB-5DAD-48E0-A3AF-E6D9651862A8} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
 		{FD8C643E-1BFE-4059-BDA0-127F99008B6D} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{84B89651-6578-47EB-BE6B-74BE8426D337} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{B3B9E233-909F-409D-B7F0-B91EDE694A33} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{37811C97-5E10-410B-8C5B-322E5BB2D6CC} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
+		{5B6B6A7F-5294-4F38-913D-B818C44271BE} = {79BD8837-FBC5-4EBC-B2E0-844F2030DF99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
