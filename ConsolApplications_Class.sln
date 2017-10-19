@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -345,7 +345,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.3. Illustrates member 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.21.4. base and derived classes", "7.21.4. base and derived classes\7.21.4. base and derived classes.csproj", "{C94FFD61-5E8E-49C6-9ED3-15B355EB4B25}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.22.Base Class", "7.22.Base Class", "{54DF25F0-AF67-44A8-9C0E-51D06C525464}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.22.Base Class( 5 )", "7.22.Base Class( 5 )", "{54DF25F0-AF67-44A8-9C0E-51D06C525464}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.1. Add constructors to base class", "7.22.1. Add constructors to base class\7.22.1. Add constructors to base class.csproj", "{86B4E15D-4D94-40B7-B3AF-1A8DE2B4920B}"
 EndProject
@@ -357,7 +357,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.4. Call constructor in
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.22.5. Define base class another cs file", "7.22.5. Define base class another cs file\7.22.5. Define base class another cs file.csproj", "{9E6B8B9C-31CD-4E1B-84B8-1C5E95B777DD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.23.virtual", "7.23.virtual", "{79BD8837-FBC5-4EBC-B2E0-844F2030DF99}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.23.virtual( 13 )", "7.23.virtual( 13 )", "{79BD8837-FBC5-4EBC-B2E0-844F2030DF99}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.1. Virtual Methods and Overriding", "7.23.1. Virtual Methods and Overriding\7.23.1. Virtual Methods and Overriding.csproj", "{453D1799-8F9F-48B6-B853-4F818064A3B7}"
 EndProject
@@ -375,13 +375,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.7. Illustrates version
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.8. Illustrates polymorphism", "7.23.8. Illustrates polymorphism\7.23.8. Illustrates polymorphism.csproj", "{5AE6AE43-9A9E-4140-BD3A-22516B13B8C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.9. Demonstrate a virtual method", "7.23.9. Demonstrate a virtual method.\7.23.9. Demonstrate a virtual method.csproj", "{84B89651-6578-47EB-BE6B-74BE8426D337}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.9. Demonstrate a virtual method", "7.23.9. Demonstrate a virtual method\7.23.9. Demonstrate a virtual method.csproj", "{84B89651-6578-47EB-BE6B-74BE8426D337}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.10. When a virtual method is not overridden", "7.23.10. When a virtual method is not overridden\7.23.10. When a virtual method is not overridden.csproj", "{B3B9E233-909F-409D-B7F0-B91EDE694A33}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.11. Virtual method in a multilevel hierarchy", "7.23.11. Virtual method in a multilevel hierarchy\7.23.11. Virtual method in a multilevel hierarchy.csproj", "{37811C97-5E10-410B-8C5B-322E5BB2D6CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.12. Use virtual methods and polymorphism", "7.23.12. Use virtual methods and polymorphism.\7.23.12. Use virtual methods and polymorphism.csproj", "{5B6B6A7F-5294-4F38-913D-B818C44271BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.12. Use virtual methods and polymorphism", "7.23.12. Use virtual methods and polymorphism\7.23.12. Use virtual methods and polymorphism.csproj", "{5B6B6A7F-5294-4F38-913D-B818C44271BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.13. Virtual Accessor", "7.23.13. Virtual Accessor\7.23.13. Virtual Accessor.csproj", "{860AFD3B-B5AD-443A-AA8F-C6B86A795CF3}"
 EndProject
