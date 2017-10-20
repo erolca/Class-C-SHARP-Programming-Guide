@@ -436,6 +436,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.27.5. Define abstract cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.27.6. abstract class with three virtual methods", "7.27.6. abstract class with three virtual methods\7.27.6. abstract class with three virtual methods.csproj", "{072C9B06-3CA5-4141-8996-F6F526EFA79F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.28.Nested Class( 3 )", "7.28.Nested Class( 3 )", "{E8045F7E-6910-42D2-9192-B09890F00E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.28.1. class nesting", "7.28.1. class nesting\7.28.1. class nesting.csproj", "{79B08FF9-818C-4EF9-9866-01F2B8A500EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.28.2. Nested class object", "7.28.2. Nested class object\7.28.2. Nested class object.csproj", "{FACB1188-0379-4391-AB54-9496CA0F4318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.28.3. Inner class", "7.28.3. Inner class\7.28.3. Inner class.csproj", "{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1146,6 +1154,18 @@ Global
 		{072C9B06-3CA5-4141-8996-F6F526EFA79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{072C9B06-3CA5-4141-8996-F6F526EFA79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{072C9B06-3CA5-4141-8996-F6F526EFA79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B08FF9-818C-4EF9-9866-01F2B8A500EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B08FF9-818C-4EF9-9866-01F2B8A500EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B08FF9-818C-4EF9-9866-01F2B8A500EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B08FF9-818C-4EF9-9866-01F2B8A500EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FACB1188-0379-4391-AB54-9496CA0F4318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACB1188-0379-4391-AB54-9496CA0F4318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACB1188-0379-4391-AB54-9496CA0F4318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACB1188-0379-4391-AB54-9496CA0F4318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1314,6 +1334,9 @@ Global
 		{847FF726-4F29-4EAF-A499-794A7B859B0A} = {BAE0E96C-D878-4789-89F6-504E8DFF6B9D}
 		{17348A92-7E3D-45F3-821A-0C015991DE79} = {BAE0E96C-D878-4789-89F6-504E8DFF6B9D}
 		{072C9B06-3CA5-4141-8996-F6F526EFA79F} = {BAE0E96C-D878-4789-89F6-504E8DFF6B9D}
+		{79B08FF9-818C-4EF9-9866-01F2B8A500EC} = {E8045F7E-6910-42D2-9192-B09890F00E87}
+		{FACB1188-0379-4391-AB54-9496CA0F4318} = {E8045F7E-6910-42D2-9192-B09890F00E87}
+		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15} = {E8045F7E-6910-42D2-9192-B09890F00E87}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
