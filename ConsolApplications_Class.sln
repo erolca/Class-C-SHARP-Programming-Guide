@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -384,6 +384,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.12. Use virtual methods and polymorphism", "7.23.12. Use virtual methods and polymorphism\7.23.12. Use virtual methods and polymorphism.csproj", "{5B6B6A7F-5294-4F38-913D-B818C44271BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.23.13. Virtual Accessor", "7.23.13. Virtual Accessor\7.23.13. Virtual Accessor.csproj", "{860AFD3B-B5AD-443A-AA8F-C6B86A795CF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.24.override( 9 )", "7.24.override( 9 )", "{69177F22-93A7-4CDC-B9A4-26F65DA2E727}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
