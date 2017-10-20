@@ -26,6 +26,7 @@ abstract public class Currency
     private decimal mEuroValue = 0M; // [Euro]
 
     public abstract decimal CurrencyValue { get; set; }
+
     public decimal EuroValue
     {
         get
