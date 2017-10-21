@@ -417,7 +417,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.26.Name Hiding( 3 )", "7.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.26.1. An example of inheritance-related name hiding", "7.26.1. An example of inheritance-related name hiding\7.26.1. An example of inheritance-related name hiding.csproj", "{DD3CBE5C-07FB-4309-94A6-55431E0F66BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.26.2. Using base to overcome name hiding", "7.26.2. Using base to overcome name hiding.\7.26.2. Using base to overcome name hiding.csproj", "{0044A1E6-D3F8-4294-B816-7A01A33EFC91}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.26.2. Using base to overcome name hiding", "7.26.2. Using base to overcome name hiding\7.26.2. Using base to overcome name hiding.csproj", "{0044A1E6-D3F8-4294-B816-7A01A33EFC91}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.26.3. Call a hidden method", "7.26.3. Call a hidden method\7.26.3. Call a hidden method.csproj", "{9970E051-71B8-4475-AB6B-DD6482EC6F35}"
 EndProject
@@ -443,6 +443,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.28.2. Nested class object", "7.28.2. Nested class object\7.28.2. Nested class object.csproj", "{FACB1188-0379-4391-AB54-9496CA0F4318}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.28.3. Inner class", "7.28.3. Inner class\7.28.3. Inner class.csproj", "{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.29.Partial Class( 2 )", "7.29.Partial Class( 2 )", "{346E94AE-5A3A-410C-8A4D-034FFACB16DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.29.1. Define and use partial class", "7.29.1. Define and use partial class\7.29.1. Define and use partial class.csproj", "{499CEE42-77D6-426A-B918-3EE0629291B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.29.2. A partial class can span multiple source files", "7.29.2. A partial class can span multiple source files.\7.29.2. A partial class can span multiple source files.csproj", "{E335A49B-3A26-47A7-B78E-04AD7D2FBA74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.30.cast( 2 )", "7.30.cast( 2 )", "{6EA23C49-D09A-4600-8348-A35718CFF61A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.30.1. Conversions of Classes", "7.30.1. Conversions of Classes\7.30.1. Conversions of Classes.csproj", "{996CDF33-CAD8-492E-B881-8E17DE794D30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.30.2. Conversions of Classes", "7.30.2. Conversions of Classes\7.30.2. Conversions of Classes.csproj", "{8D94B0B7-A947-4DF0-A36E-C25B2536AE78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1166,6 +1178,22 @@ Global
 		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499CEE42-77D6-426A-B918-3EE0629291B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499CEE42-77D6-426A-B918-3EE0629291B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499CEE42-77D6-426A-B918-3EE0629291B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499CEE42-77D6-426A-B918-3EE0629291B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E335A49B-3A26-47A7-B78E-04AD7D2FBA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E335A49B-3A26-47A7-B78E-04AD7D2FBA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E335A49B-3A26-47A7-B78E-04AD7D2FBA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E335A49B-3A26-47A7-B78E-04AD7D2FBA74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996CDF33-CAD8-492E-B881-8E17DE794D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996CDF33-CAD8-492E-B881-8E17DE794D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996CDF33-CAD8-492E-B881-8E17DE794D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996CDF33-CAD8-492E-B881-8E17DE794D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D94B0B7-A947-4DF0-A36E-C25B2536AE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D94B0B7-A947-4DF0-A36E-C25B2536AE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D94B0B7-A947-4DF0-A36E-C25B2536AE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D94B0B7-A947-4DF0-A36E-C25B2536AE78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1337,6 +1365,10 @@ Global
 		{79B08FF9-818C-4EF9-9866-01F2B8A500EC} = {E8045F7E-6910-42D2-9192-B09890F00E87}
 		{FACB1188-0379-4391-AB54-9496CA0F4318} = {E8045F7E-6910-42D2-9192-B09890F00E87}
 		{4BEA721F-9F7C-4FC3-9DDB-C0CADD226D15} = {E8045F7E-6910-42D2-9192-B09890F00E87}
+		{499CEE42-77D6-426A-B918-3EE0629291B1} = {346E94AE-5A3A-410C-8A4D-034FFACB16DE}
+		{E335A49B-3A26-47A7-B78E-04AD7D2FBA74} = {346E94AE-5A3A-410C-8A4D-034FFACB16DE}
+		{996CDF33-CAD8-492E-B881-8E17DE794D30} = {6EA23C49-D09A-4600-8348-A35718CFF61A}
+		{8D94B0B7-A947-4DF0-A36E-C25B2536AE78} = {6EA23C49-D09A-4600-8348-A35718CFF61A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
