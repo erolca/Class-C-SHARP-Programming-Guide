@@ -32,8 +32,7 @@ abstract public class BaseClass : ICompare
 
 public class SubClass : BaseClass
 {
-    public SubClass(int nInitialValue)
-        : base(nInitialValue)
+    public SubClass(int nInitialValue): base(nInitialValue)
     {
     }
 
@@ -56,7 +55,6 @@ public class Class1
 
     public static void MyFunc(ICompare ic1, ICompare ic2)
     {
-        Console.WriteLine("bc1.Compare(bc2) returned {0}",
-                          ic1.Compare(ic2));
+        Console.WriteLine("bc1.Compare(bc2) returned {0}",ic1.Compare(ic2));
     }
 }

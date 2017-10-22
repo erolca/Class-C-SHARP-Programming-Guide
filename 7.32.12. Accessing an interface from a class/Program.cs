@@ -34,7 +34,8 @@ public class MainClass : Channel, Book
     public static void Main()
     {
         MainClass app = new MainClass();
-        ((Book)app).Next(); 
+        ((Book)app).Next();
+        ((Channel)app).Next();
         app.Previous();
         app.Chapter();
     }
