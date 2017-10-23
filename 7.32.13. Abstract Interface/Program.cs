@@ -34,6 +34,7 @@ public class SubClass : BaseClass
 {
     public SubClass(int nInitialValue): base(nInitialValue)
     {
+        
     }
 
     override public int Compare(ICompare ic)
@@ -51,6 +52,11 @@ public class Class1
         SubClass sc2 = new SubClass(20);
 
         MyFunc(sc1, sc2);
+
+
+        string s1 = "ani\u00ADmal";
+        object o1 = "animal";
+        Console.WriteLine("Comparison of '{0}' and '{1}': {2}", s1, o1, s1.CompareTo(o1));
     }
 
     public static void MyFunc(ICompare ic1, ICompare ic2)

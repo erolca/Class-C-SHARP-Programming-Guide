@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -486,9 +486,37 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.10. Base class and int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.11. Duplicate Interface Members", "7.32.11. Duplicate Interface Members\7.32.11. Duplicate Interface Members.csproj", "{69128AED-7F3E-4E99-8F8D-FB1239CE9F1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.12. Accessing an interface from a class", "7.32.12. Accessing an interface from a class.\7.32.12. Accessing an interface from a class.csproj", "{4A846853-048E-4574-98DB-6871DD518A02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.12. Accessing an interface from a class", "7.32.12. Accessing an interface from a class\7.32.12. Accessing an interface from a class.csproj", "{4A846853-048E-4574-98DB-6871DD518A02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.13. Abstract Interface", "7.32.13. Abstract Interface\7.32.13. Abstract Interface.csproj", "{7F1CE651-B1C2-45CA-BF4B-CD14B8D34FA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.14. Multiple Interfaces", "7.32.14. Multiple Interfaces\7.32.14. Multiple Interfaces.csproj", "{37874089-1D65-4AD6-9241-C9FD8C0E937B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.32.15. Interface Explicit Implementation", "7.32.15. Interface Explicit Implementation\7.32.15. Interface Explicit Implementation.csproj", "{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.33.Interface hierarchy( 5 )", "7.33.Interface hierarchy( 5 )", "{24087B61-DF0E-44B3-8E10-15D29DEFE7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.33.1. Interfaces Based on Interfaces", "7.33.1. Interfaces Based on Interfaces\7.33.1. Interfaces Based on Interfaces.csproj", "{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.33.2. Interface Inheritance Demo", "7.33.2. Interface Inheritance Demo\7.33.2. Interface Inheritance Demo.csproj", "{9620189F-D637-4CE8-8854-3CFA902ABD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.33.3. Interfaces Inheriting Interfaces", "7.33.3. Interfaces Inheriting Interfaces\7.33.3. Interfaces Inheriting Interfaces.csproj", "{F9991050-1668-4AE1-92E8-2FA47D9043A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.33.4. One interface can inherit another", "7.33.4. One interface can inherit another\7.33.4. One interface can inherit another.csproj", "{8AC89A8F-8610-4010-9CFB-4B692A2E68D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.33.5. Inheritance from both class and interface", "7.33.5. Inheritance from both class and interface\7.33.5. Inheritance from both class and interface.csproj", "{D1E3A38B-1F92-418B-8CCA-CA17BD56526E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.34.Explicit Interface Implementation( 5 )", "7.34.Explicit Interface Implementation( 5 )", "{BF701BAB-B571-4874-88B6-AC3EB67D555B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.34.1. Interface member hiding", "7.34.1. Interface member hiding\7.34.1. Interface member hiding.csproj", "{20842238-B738-41FC-8CA0-F4051BE889F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.34.2. Explicit Interface Implementation", "7.34.2. Explicit Interface Implementation\7.34.2. Explicit Interface Implementation.csproj", "{0248A273-82C9-42B7-8E07-BD7C2DBB7387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.34.3. Explicit interface implementation", "7.34.3. Explicit interface implementation\7.34.3. Explicit interface implementation.csproj", "{C6E2E286-0483-46C8-AFC7-5E23F76EADEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.34.4. Explicitly implement an interface member", "7.34.4. Explicitly implement an interface member\7.34.4. Explicitly implement an interface member.csproj", "{1118B7CB-13F5-424F-A130-4A34F1276803}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.34.5. Use explicit implementation to remove ambiguity", "7.34.5. Use explicit implementation to remove ambiguity\7.34.5. Use explicit implementation to remove ambiguity.csproj", "{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1280,6 +1308,54 @@ Global
 		{7F1CE651-B1C2-45CA-BF4B-CD14B8D34FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F1CE651-B1C2-45CA-BF4B-CD14B8D34FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F1CE651-B1C2-45CA-BF4B-CD14B8D34FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37874089-1D65-4AD6-9241-C9FD8C0E937B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37874089-1D65-4AD6-9241-C9FD8C0E937B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37874089-1D65-4AD6-9241-C9FD8C0E937B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37874089-1D65-4AD6-9241-C9FD8C0E937B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9620189F-D637-4CE8-8854-3CFA902ABD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9620189F-D637-4CE8-8854-3CFA902ABD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9620189F-D637-4CE8-8854-3CFA902ABD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9620189F-D637-4CE8-8854-3CFA902ABD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9991050-1668-4AE1-92E8-2FA47D9043A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9991050-1668-4AE1-92E8-2FA47D9043A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9991050-1668-4AE1-92E8-2FA47D9043A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9991050-1668-4AE1-92E8-2FA47D9043A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC89A8F-8610-4010-9CFB-4B692A2E68D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC89A8F-8610-4010-9CFB-4B692A2E68D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC89A8F-8610-4010-9CFB-4B692A2E68D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC89A8F-8610-4010-9CFB-4B692A2E68D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E3A38B-1F92-418B-8CCA-CA17BD56526E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E3A38B-1F92-418B-8CCA-CA17BD56526E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E3A38B-1F92-418B-8CCA-CA17BD56526E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E3A38B-1F92-418B-8CCA-CA17BD56526E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20842238-B738-41FC-8CA0-F4051BE889F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20842238-B738-41FC-8CA0-F4051BE889F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20842238-B738-41FC-8CA0-F4051BE889F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20842238-B738-41FC-8CA0-F4051BE889F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0248A273-82C9-42B7-8E07-BD7C2DBB7387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0248A273-82C9-42B7-8E07-BD7C2DBB7387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0248A273-82C9-42B7-8E07-BD7C2DBB7387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0248A273-82C9-42B7-8E07-BD7C2DBB7387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E2E286-0483-46C8-AFC7-5E23F76EADEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E2E286-0483-46C8-AFC7-5E23F76EADEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E2E286-0483-46C8-AFC7-5E23F76EADEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E2E286-0483-46C8-AFC7-5E23F76EADEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1118B7CB-13F5-424F-A130-4A34F1276803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1118B7CB-13F5-424F-A130-4A34F1276803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1118B7CB-13F5-424F-A130-4A34F1276803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1118B7CB-13F5-424F-A130-4A34F1276803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1468,6 +1544,18 @@ Global
 		{69128AED-7F3E-4E99-8F8D-FB1239CE9F1F} = {2D35780D-510C-470E-B5A3-3CED567F69DD}
 		{4A846853-048E-4574-98DB-6871DD518A02} = {2D35780D-510C-470E-B5A3-3CED567F69DD}
 		{7F1CE651-B1C2-45CA-BF4B-CD14B8D34FA0} = {2D35780D-510C-470E-B5A3-3CED567F69DD}
+		{37874089-1D65-4AD6-9241-C9FD8C0E937B} = {2D35780D-510C-470E-B5A3-3CED567F69DD}
+		{2E90DC0B-8C05-42A3-9EC9-44F7886C70A9} = {2D35780D-510C-470E-B5A3-3CED567F69DD}
+		{C6A75B36-1CFC-4B7D-A2AC-731E02C9C2A7} = {24087B61-DF0E-44B3-8E10-15D29DEFE7BA}
+		{9620189F-D637-4CE8-8854-3CFA902ABD08} = {24087B61-DF0E-44B3-8E10-15D29DEFE7BA}
+		{F9991050-1668-4AE1-92E8-2FA47D9043A7} = {24087B61-DF0E-44B3-8E10-15D29DEFE7BA}
+		{8AC89A8F-8610-4010-9CFB-4B692A2E68D4} = {24087B61-DF0E-44B3-8E10-15D29DEFE7BA}
+		{D1E3A38B-1F92-418B-8CCA-CA17BD56526E} = {24087B61-DF0E-44B3-8E10-15D29DEFE7BA}
+		{20842238-B738-41FC-8CA0-F4051BE889F4} = {BF701BAB-B571-4874-88B6-AC3EB67D555B}
+		{0248A273-82C9-42B7-8E07-BD7C2DBB7387} = {BF701BAB-B571-4874-88B6-AC3EB67D555B}
+		{C6E2E286-0483-46C8-AFC7-5E23F76EADEF} = {BF701BAB-B571-4874-88B6-AC3EB67D555B}
+		{1118B7CB-13F5-424F-A130-4A34F1276803} = {BF701BAB-B571-4874-88B6-AC3EB67D555B}
+		{3AC3D2CD-C1D4-45CE-914B-F6C56DA5289E} = {BF701BAB-B571-4874-88B6-AC3EB67D555B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
