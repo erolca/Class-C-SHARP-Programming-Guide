@@ -12,6 +12,7 @@
  * abstract     see 7.23.13. Virtual Accessor
  * Compare      SEE 7.32.13. Abstract Interface
  * as           see 7.33.5. Inheritance from both class and interface
+ * throw        see 7.13.14. Throw your own exception from class constructor
   */
 
 

@@ -14,3 +14,4 @@
  *  
  *  abstract type name(parameter-list);
 */
+

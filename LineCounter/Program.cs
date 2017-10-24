@@ -38,10 +38,10 @@ public static class LineCounter
     private static int CountLines(string file)
     {
         string line; 
-    int lineCount = 0;
+        int lineCount = 0;
         FileStream stream =
         new FileStream(file, FileMode.Open); 
-    StreamReader reader = new StreamReader(stream);
+        StreamReader reader = new StreamReader(stream);
         line = reader.ReadLine();
         while (line != null)
         {

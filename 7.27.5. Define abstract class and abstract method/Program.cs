@@ -58,12 +58,13 @@ class Test
     public static void Main()
     {
         Employee[] earray = new Employee[2];
-        earray[0] = new Manager("A", 40.0F);
+        earray[0] = new Manager("A", 40.0F); // upcast
         earray[1] = new Clerk("C", 45.0F);
 
         Console.WriteLine("{0} charge = {1}",
         earray[0].TypeName(),
         earray[0].CalculateCharge(2F));
+
         Console.WriteLine("{0} charge = {1}",
         earray[1].TypeName(),
         earray[1].CalculateCharge(0.75F));

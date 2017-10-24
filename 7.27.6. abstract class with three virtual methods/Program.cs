@@ -20,11 +20,22 @@ public class MyClass : MyOperations
 {
     public override void Operation1() { }
     public override void Operation2() { }
+ 
 }
 
 public class MainClass
 {
-    public void DoWork(MyOperations ops)
+   
+
+    public static void Main()
+    {
+        MyOperations d = new MyClass();
+        DoWork(d);
+    }
+
+
+
+        public static void DoWork(MyOperations ops)
     {
         ops.Operation3();
     }
