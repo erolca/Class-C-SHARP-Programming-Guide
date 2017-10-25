@@ -68,17 +68,6 @@ class PairList
             row[column - 1] = value;
         }
     }
-
-    int FindPair(string name)
-    {
-        for (int index = 0; index < row.Count; index++)
-        {
-            Pair Pair = (Pair)row[index];
-            if (Pair.Name == name)
-                return (index);
-        }
-        return (-1);
-    }
     public Pair this[string name]
     {
         get
@@ -90,6 +79,19 @@ class PairList
             this[FindPair(name)] = value;
         }
     }
+
+
+    int FindPair(string name)
+    {
+        for (int index = 0; index < row.Count; index++)
+        {
+            Pair Pair = (Pair)row[index];
+            if (Pair.Name == name)
+                return (index);
+        }
+        return (-1);
+    }
+  
    
 }
 
@@ -98,10 +100,20 @@ class Test
 {
     public static void Main()
     {
-
+goto atlamanoktasi;
         //ornek olması acısından->RawView
         ArrayList listarray = new ArrayList();
+        listarray.Add(new Pair("W",1919));
+        listarray.Add(new Pair("X",1923));
+        listarray.Add(new Pair("Y",1071));
+        listarray.Add(new Pair("Z",1453));
 
+        Pair d = (Pair)listarray[0];
+        Console.WriteLine("{0}", d.Data);
+
+
+
+atlamanoktasi:
         PairList row = new PairList();
         row.Load();
         Pair val = row["A"];

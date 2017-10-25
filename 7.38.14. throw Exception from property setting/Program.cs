@@ -63,7 +63,8 @@ class Program
             {
                 Console.WriteLine("Exception {0} thrown.", e.GetType().FullName);
                 Console.WriteLine("Message:\n\"{0}\"", e.Message);
-            //}
+                //}
+            }
         }
     }
 }
