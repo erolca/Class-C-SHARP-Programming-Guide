@@ -63,13 +63,12 @@ class PairList
         row.Add(new Pair("C", 2355.23m));
     }
 
-    // the indexer
-    
+    // Indexer declaration.
     public Pair this[int column]
     {
         get
         {
-            return ((Pair)row[column - 1]);
+            return  ((Pair)row[column - 1]);
         }
         set
         {

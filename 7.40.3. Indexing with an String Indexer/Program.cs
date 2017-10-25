@@ -2,11 +2,17 @@
 using System.Collections;
 class Pair
 {
+    string name;//field
+    object data;//field
+
+    //const. method
     public Pair(string name, object data)
     {
         this.name = name;
         this.data = data;
     }
+
+    //properties
     public string Name
     {
         get
@@ -18,6 +24,7 @@ class Pair
             name = value;
         }
     }
+
     public object Data
     {
         get
@@ -29,11 +36,14 @@ class Pair
             data = value;
         }
     }
-    string name;
-    object data;
+ 
 }
+
+
 class PairList
 {
+    ArrayList row;
+
     public PairList()
     {
         row = new ArrayList();
@@ -58,6 +68,7 @@ class PairList
             row[column - 1] = value;
         }
     }
+
     int FindPair(string name)
     {
         for (int index = 0; index < row.Count; index++)
@@ -79,12 +90,18 @@ class PairList
             this[FindPair(name)] = value;
         }
     }
-    ArrayList row;
+   
 }
+
+
 class Test
 {
     public static void Main()
     {
+
+        //ornek olması acısından->RawView
+        ArrayList listarray = new ArrayList();
+
         PairList row = new PairList();
         row.Load();
         Pair val = row["A"];
@@ -94,3 +111,8 @@ class Test
         Console.WriteLine("Q: {0}", row["Q"].Data);
     }
 }
+
+//PairList Row_ = new PairList();
+//Row_.Load();
+//        Console.WriteLine("Column 0: {0}", Row_[1].Data);
+//        Row_[1].Data = 12;
