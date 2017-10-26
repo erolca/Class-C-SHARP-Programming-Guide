@@ -56,6 +56,7 @@ class MainClass
         Person p2 = new Person("A", "B", "222-22-2222", 98);
 
         Console.WriteLine("P3 and P4 have same state: {0}", object.Equals(p1, p2));
+        Console.WriteLine(p1.ToString());
     }
 }
 //P3 and P4 have same state: True
