@@ -1,0 +1,13 @@
+﻿Method												Purpose
+public virtual bool Equals(object ob)				whether the object is the same as the one referred to by ob.
+public static bool Equals(object ob1,				whether ob1 is the same as ob2.
+object ob2)	
+protected Finalize()								Performs shutdown actions prior to garbage collection.
+public virtual int GetHashCode()					Returns the hash code.
+public Type GetType()								Return the type of an object.
+protected object MemberwiseClone()					Makes a "shallow copy" of the object. (The members are copied, but 
+													objects referred to by members are not.)
+public static bool ReferenceEquals(object ob1,		whether ob1 and ob2 refer to the same object.
+object ob2)	
+public virtual string ToString()					Returns a string that describes the object.
+													It is automatically called when an object is output using WriteLine().

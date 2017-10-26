@@ -36,7 +36,7 @@ class Pair
             data = value;
         }
     }
- 
+
 }
 
 
@@ -61,11 +61,11 @@ class PairList
     {
         get
         {
-            return ((Pair)row[column - 1]);
+            return ((Pair)row[column]);
         }
         set
         {
-            row[column - 1] = value;
+            row[column] = value;
         }
     }
     public Pair this[string name]
@@ -91,8 +91,8 @@ class PairList
         }
         return (-1);
     }
-  
-   
+
+
 }
 
 
@@ -100,20 +100,26 @@ class Test
 {
     public static void Main()
     {
-goto atlamanoktasi;
+        goto atlamanoktasi;
         //ornek olması acısından->RawView
         ArrayList listarray = new ArrayList();
-        listarray.Add(new Pair("W",1919));
-        listarray.Add(new Pair("X",1923));
-        listarray.Add(new Pair("Y",1071));
-        listarray.Add(new Pair("Z",1453));
+        listarray.Add(new Pair("W", 1919));
+        listarray.Add(new Pair("X", 1923));
+        listarray.Add(new Pair("Y", 1071));
+        listarray.Add(new Pair("Z", 1453));
 
-        Pair d = (Pair)listarray[0];
-        Console.WriteLine("{0}", d.Data);
+       /* Pair d = (Pair)listarray[0];
+        Console.WriteLine("{0}", d.Data);*/
+
+        foreach (Pair item in listarray)
+        {
+            Pair d = item;
+            Console.WriteLine("{0}", d.Data);
+        }
 
 
 
-atlamanoktasi:
+        atlamanoktasi:
         PairList row = new PairList();
         row.Load();
         Pair val = row["A"];

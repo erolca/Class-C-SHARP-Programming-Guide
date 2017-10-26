@@ -68,11 +68,11 @@ class PairList
     {
         get
         {
-            return  ((Pair)row[column - 1]);
+            return  ((Pair)row[column ]);
         }
         set
         {
-            row[column - 1] = value;
+            row[column ] = value;
         }
     }
     
@@ -83,7 +83,7 @@ class MainClass
     {
         PairList Row_ = new PairList();
         Row_.Load();
-        Console.WriteLine("Column 0: {0}", Row_[1].Data);
+        Console.WriteLine("Column 1: {0}", Row_[1].Data);
         Row_[1].Data = 12;
     }
 }
