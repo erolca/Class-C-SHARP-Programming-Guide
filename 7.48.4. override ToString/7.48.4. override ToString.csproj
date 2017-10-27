@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2E7E644-DE8B-43AD-BA03-1DC4A617E65E}</ProjectGuid>
+    <ProjectGuid>{59C2E803-552C-4BDE-976B-0F893A04B391}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._46._2.Create_new_instance_in_static_Properties</RootNamespace>
-    <AssemblyName>_7._46._2.Create_new_instance_in_static_Properties</AssemblyName>
+    <RootNamespace>_7._48._4.override_ToString</RootNamespace>
+    <AssemblyName>_7._48._4.override_ToString</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

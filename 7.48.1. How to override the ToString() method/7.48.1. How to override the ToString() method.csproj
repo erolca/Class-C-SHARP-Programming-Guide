@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2E7E644-DE8B-43AD-BA03-1DC4A617E65E}</ProjectGuid>
+    <ProjectGuid>{D68725BA-DD9C-496F-9474-06587AED1D36}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._46._2.Create_new_instance_in_static_Properties</RootNamespace>
-    <AssemblyName>_7._46._2.Create_new_instance_in_static_Properties</AssemblyName>
+    <RootNamespace>_7._48._1.How_to_override_the_ToString___method</RootNamespace>
+    <AssemblyName>_7._48._1.How_to_override_the_ToString___method</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
