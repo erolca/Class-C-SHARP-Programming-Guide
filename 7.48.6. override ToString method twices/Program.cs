@@ -24,6 +24,8 @@ class DerivedClass : BaseClass
         return base.ToString() + " " + d.ToString();
     }
 }
+
+
 class MainClass
 {
     public static void Main()
@@ -35,5 +37,8 @@ class MainClass
         d.Print();
         bd.Print();
         Console.WriteLine("b: {0}, d: {1}, bd: {2}", b, d, bd);
+        Console.WriteLine("\n b: {0}",b);
+        Console.WriteLine("\n d: {0}",d);
+        Console.WriteLine("\n bd: {0}",bd);
     }
 }

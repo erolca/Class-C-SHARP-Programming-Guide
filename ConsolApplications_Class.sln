@@ -670,6 +670,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.48.5. Format value in ToS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.48.6. override ToString method twices", "7.48.6. override ToString method twices\7.48.6. override ToString method twices.csproj", "{A472FED0-28C0-4C1E-9EA7-DC2C26FEB8C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.49.Hash Code( 1 )", "7.49.Hash Code( 1 )", "{678FDFB0-3DC7-4BCA-B9B8-F8C059E722A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.49.1. Override the GetHashCode method from object", "7.49.1. Override the GetHashCode method from object\7.49.1. Override the GetHashCode method from object.csproj", "{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.50.MemberwiseClone( 3 )", "7.50.MemberwiseClone( 3 )", "{CD910FF9-C898-48E6-9570-C4BAE7FCF7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.50.1. Create a clone using the Object.MemberwiseClone", "7.50.1. Create a clone using the Object.MemberwiseClone\7.50.1. Create a clone using the Object.MemberwiseClone.csproj", "{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3896,6 +3904,30 @@ Global
 		{A472FED0-28C0-4C1E-9EA7-DC2C26FEB8C7}.Release|x64.Build.0 = Release|Any CPU
 		{A472FED0-28C0-4C1E-9EA7-DC2C26FEB8C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{A472FED0-28C0-4C1E-9EA7-DC2C26FEB8C7}.Release|x86.Build.0 = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|x64.Build.0 = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Debug|x86.Build.0 = Debug|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|x64.ActiveCfg = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|x64.Build.0 = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|x86.ActiveCfg = Release|Any CPU
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56}.Release|x86.Build.0 = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|x64.Build.0 = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Debug|x86.Build.0 = Debug|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|x64.ActiveCfg = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|x64.Build.0 = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -4156,6 +4188,8 @@ Global
 		{59C2E803-552C-4BDE-976B-0F893A04B391} = {D202A832-37BA-4A93-BD6F-F455F64E13C9}
 		{9EB71F47-073E-4AEC-847D-1B17FDAAE09B} = {D202A832-37BA-4A93-BD6F-F455F64E13C9}
 		{A472FED0-28C0-4C1E-9EA7-DC2C26FEB8C7} = {D202A832-37BA-4A93-BD6F-F455F64E13C9}
+		{8C322AFE-9ECD-4955-922C-F9E2AF2D5F56} = {678FDFB0-3DC7-4BCA-B9B8-F8C059E722A0}
+		{D1F6CFB1-9E86-4D40-B5B5-08F6E88893DA} = {CD910FF9-C898-48E6-9570-C4BAE7FCF7A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}

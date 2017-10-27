@@ -7,7 +7,13 @@ using System.Text;
  * Bir sınıfın başka sınıflara kalıtım vermesini engellemek için sealed komutu kullanılır.
  * Sealed classları bir çeşit güvenlik önlemi olarak düşünebiliriz. Yanlışlıkla türetilmeleri engellenmiş oluyor.
  */
-sealed class MyClass
+ public class BaseClass
+    {
+    
+    
+    
+    }
+sealed class MyClass//: BaseClass
 {
     MyClass() { }
 }
@@ -17,7 +23,7 @@ class Program
         static void Main(string[] args)
         {
         //error CS0122: 'MyClass.MyClass()' is inaccessible due to its protection level
-        //MyClass d = new MyClass();
+      //  MyClass d = new MyClass();
 
         }
     }

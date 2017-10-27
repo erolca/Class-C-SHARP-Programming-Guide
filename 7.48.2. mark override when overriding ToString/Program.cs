@@ -14,7 +14,7 @@ public class Thing
 
 class MyClass
 {
-    static void main()
+    static void Main()
     {
 
 
