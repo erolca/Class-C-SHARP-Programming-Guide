@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("7.50.2. Use MemberwiseClone")]
+[assembly: AssemblyTitle("7.52.1. ICustomFormatter IFormatProvider")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("7.50.2. Use MemberwiseClone")]
+[assembly: AssemblyProduct("7.52.1. ICustomFormatter IFormatProvider")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("948d64a8-b017-4552-942e-0403cc6ee35a")]
+[assembly: Guid("cee0e879-36b3-4e84-a955-80a3429d57d2")]
 
 // Version information for an assembly consists of the following four values:
 //

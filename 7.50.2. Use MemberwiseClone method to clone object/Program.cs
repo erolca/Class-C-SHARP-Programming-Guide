@@ -37,9 +37,12 @@ class MainClass
         MyObject my = new MyObject("John",1001,3);
         MyObject myClone = my.Clone();
         Console.WriteLine("Values: {0} {1}", my.contained.count, myClone.contained.count);
+        Console.WriteLine("Name: {0} {1}", my.Name, myClone.Name);
         myClone.contained.count = 1;
         myClone.Name = "Robin";
         Console.WriteLine("Values: {0} {1}", my.contained.count, myClone.contained.count);
+        Console.WriteLine("Name: {0} {1}", my.Name, myClone.Name);
+        //deger atamalı olan degiskenler degişmektedir..
     }
 }
 

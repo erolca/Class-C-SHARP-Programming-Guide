@@ -1,5 +1,5 @@
 ﻿using System;
-
+//7.50.3.	Perform a memberwise clone of myEmployee using the Employee.Copy() method
 public class Employee
 {
     public string firstName;
@@ -45,3 +45,15 @@ class MainClass
         myOldEmployee.Display();
     }
 }
+
+//Creating Employee objects
+//myEmployee details:
+//firstName = A
+//lastName = M
+//myOtherEmployee details:
+//firstName = B
+//lastName = N
+//Performing a memberwise clone of myEmployee to myOldEmployee
+//myOldEmployee details:
+//firstName = A
+//lastName = M
