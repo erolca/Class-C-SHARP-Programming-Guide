@@ -297,6 +297,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E53DEF9-E259-4367-830E-C16A0BD8BA58}"
 	ProjectSection(SolutionItems) = preProject
 		Ozet.cs = Ozet.cs
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.16.2. Use Properties", "7.16.2. Use Properties\7.16.2. Use Properties.csproj", "{3FDEBBD4-1B31-4049-A753-7F2CDF41F9B1}"
