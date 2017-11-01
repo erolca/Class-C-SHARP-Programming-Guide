@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{345CD449-8448-4FD6-BED3-521B774F46B7}</ProjectGuid>
+    <ProjectGuid>{12F84212-E840-42E8-B95C-97CAD69D7FA1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._51._2.Clone_a_list_of_cloneable_objects</RootNamespace>
-    <AssemblyName>_7._51._2.Clone_a_list_of_cloneable_objects</AssemblyName>
+    <RootNamespace>_7._55._1.A_class_which_implements_comparison</RootNamespace>
+    <AssemblyName>_7._55._1.A_class_which_implements_comparison</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

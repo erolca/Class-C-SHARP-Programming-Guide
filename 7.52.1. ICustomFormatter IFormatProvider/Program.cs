@@ -10,6 +10,7 @@ Accelerated C# 2005
 using System;
 using System.Text;
 using System.Globalization;
+using System.Threading;
 
 public class ComplexDbgFormatter : ICustomFormatter, IFormatProvider
 {
@@ -79,6 +80,21 @@ public class MainClass
 {
     static void Main()
     {
+        /**/
+
+        double value = 1634.92;
+        CultureInfo.CurrentCulture = new CultureInfo("fr-CA");
+        Console.WriteLine("Current Culture: {0}",
+                          CultureInfo.CurrentCulture.Name);
+        Console.WriteLine("{0:C2}\n", value);
+
+        Thread.CurrentThread.CurrentCulture = new CultureInfo("fr");
+        Console.WriteLine("Current Culture: {0}",
+                          CultureInfo.CurrentCulture.Name);
+        Console.WriteLine("{0:C2}", value);
+        /**/
+
+
         CultureInfo local = CultureInfo.CurrentCulture;
         CultureInfo germany = new CultureInfo("de-DE");
 

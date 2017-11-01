@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{345CD449-8448-4FD6-BED3-521B774F46B7}</ProjectGuid>
+    <ProjectGuid>{1EB4D7E0-FC32-49A0-809B-7C4146FDE006}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_7._51._2.Clone_a_list_of_cloneable_objects</RootNamespace>
-    <AssemblyName>_7._51._2.Clone_a_list_of_cloneable_objects</AssemblyName>
+    <RootNamespace>_7._53._1.Dispose___is_called_automatically</RootNamespace>
+    <AssemblyName>_7._53._1.Dispose___is_called_automatically</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
