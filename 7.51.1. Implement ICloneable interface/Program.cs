@@ -8,6 +8,8 @@ class MyValue
     }
     public int count;
 }
+
+
 class MyObject : ICloneable
 {
     public MyValue contained;
