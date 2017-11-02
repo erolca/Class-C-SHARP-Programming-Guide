@@ -717,6 +717,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.55.IEquatable( 1 )", "7.5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.55.1. A class which implements comparison", "7.55.1. A class which implements comparison\7.55.1. A class which implements comparison.csproj", "{12F84212-E840-42E8-B95C-97CAD69D7FA1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.61.Partial Class", "7.61.Partial Class", "{99DDE436-E794-4CDA-B964-966C7BC0377C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.61.1. generic partial class", "7.61.1. generic partial class\7.61.1. generic partial class.csproj", "{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -4135,6 +4139,18 @@ Global
 		{12F84212-E840-42E8-B95C-97CAD69D7FA1}.Release|x64.Build.0 = Release|Any CPU
 		{12F84212-E840-42E8-B95C-97CAD69D7FA1}.Release|x86.ActiveCfg = Release|Any CPU
 		{12F84212-E840-42E8-B95C-97CAD69D7FA1}.Release|x86.Build.0 = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|x64.Build.0 = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Debug|x86.Build.0 = Debug|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|x64.ActiveCfg = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|x64.Build.0 = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|x86.ActiveCfg = Release|Any CPU
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -4411,6 +4427,7 @@ Global
 		{0B7BF917-3B5E-4A36-8659-4819CB3D99F7} = {C371F911-C012-41E6-8A24-D9E4C7E7AEBD}
 		{85CD51F4-7AB9-4D21-88DB-35BAE2B20E87} = {C371F911-C012-41E6-8A24-D9E4C7E7AEBD}
 		{12F84212-E840-42E8-B95C-97CAD69D7FA1} = {7439867D-D952-485C-9551-68AACCDB0B21}
+		{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B} = {99DDE436-E794-4CDA-B964-966C7BC0377C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {006608A7-B1F3-4148-A64B-F7BD36AB5346}
