@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.1.Class Definition(17)", "7.1.Class Definition(17)", "{4E629711-0B67-477D-9AE4-3AF1650A8875}"
 	ProjectSection(SolutionItems) = preProject
@@ -722,6 +722,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.61.1. generic partial class", "7.61.1. generic partial class\7.61.1. generic partial class.csproj", "{BF6DB03E-B155-41F8-AF96-A7FBA353BE0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console01", "Console01\Console01.csproj", "{1FE583DE-F8B1-4CFF-A23C-CC9A0A616CF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MSDN", "MSDN", "{2F3C33F7-8B40-46CD-A3C3-951C63C392CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifyPropertyChangedSample", "NotifyPropertyChangedSample\NotifyPropertyChangedSample\NotifyPropertyChangedSample.csproj", "{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -4165,6 +4169,14 @@ Global
 		{1FE583DE-F8B1-4CFF-A23C-CC9A0A616CF2}.Release|x64.Build.0 = Release|Any CPU
 		{1FE583DE-F8B1-4CFF-A23C-CC9A0A616CF2}.Release|x86.ActiveCfg = Release|Any CPU
 		{1FE583DE-F8B1-4CFF-A23C-CC9A0A616CF2}.Release|x86.Build.0 = Release|Any CPU
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Debug|x64.ActiveCfg = Debug|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Debug|x86.ActiveCfg = Debug|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Debug|x86.Build.0 = Debug|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Release|Any CPU.ActiveCfg = Release|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Release|x64.ActiveCfg = Release|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Release|x86.ActiveCfg = Release|x86
+		{5CA67954-DBDF-4007-B9D7-AB31D4E9BD7F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
