@@ -78,7 +78,7 @@ class Form1:Form
             // 
             // Form1
             // 
-           ClientSize = new System.Drawing.Size(120, 70);
+            this.ClientSize = new System.Drawing.Size(300, 342);
             this.Name = "Form1";
             this.ResumeLayout(false);
 
